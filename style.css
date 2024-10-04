@@ -110,13 +110,14 @@ body {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0;
+    left: 0;
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.7em; 
     text-align: center; 
     color: white;
 }
@@ -129,6 +130,7 @@ footer {
     body {
         padding: 2rem;
     }
+
     .rating-state-container,
     .thankyou-state-container {
         padding: 2rem !important;
